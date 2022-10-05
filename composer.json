@@ -2,7 +2,7 @@
     "name": "drowningelysium/laravel-socialite-congressus",
     "description": "An oAuth2 implementation to allow authentication through Congressus.",
     "type": "library",
-    "keywords": ["framework", "laravel"],
+    "keywords": ["laravel", "socialite", "oauth", "congressus"],
     "license": "proprietary",
     "require": {
         "php": "^7.2 | ^8.0",
