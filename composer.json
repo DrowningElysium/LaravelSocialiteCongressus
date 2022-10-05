@@ -1,13 +1,13 @@
 {
     "name": "drowningelysium/laravel-socialite-congressus",
-    "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "An oAuth2 implementation to allow authentication through Congressus.",
+    "type": "library",
     "keywords": ["framework", "laravel"],
-    "license": "MIT",
+    "license": "proprietary",
     "require": {
         "php": "^7.2 | ^8.0",
         "ext-json": "*",
-        "../vendor/laravel/socialite": "^v5.5"
+        "laravel/socialite": "^v5.5"
     },
     "autoload": {
         "psr-4": {
