@@ -1,0 +1,34 @@
+{
+    "name": "drowningelysium/laravel-socialite-congressus",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2 | ^8.0",
+        "ext-json": "*",
+        "../vendor/laravel/socialite": "^v5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DrowningElysium\\LaravelSocialiteCongressus": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DrowningElysium\\LaravelSocialiteCongressus\\CongressusServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
