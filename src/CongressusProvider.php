@@ -103,7 +103,7 @@ class CongressusProvider extends AbstractProvider implements ProviderInterface
      */
     protected function getTokenUrl(): string
     {
-        return $this->domain.'/oath/token';
+        return $this->domain.'/oauth/token';
     }
 
     /**
