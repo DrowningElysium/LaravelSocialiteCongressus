@@ -107,6 +107,24 @@ class CongressusProvider extends AbstractProvider implements ProviderInterface
     }
 
     /**
+     * Get the POST fields for the token request.
+     *
+     * @param  string  $code
+     * @return array
+     */
+    protected function getTokenFields($code)
+    {
+        $fields = [
+            'grant_type' => 'authorization_code',
+            'client_id' => $this->clientId,
+            'client_secret' => $this->clientSecret,
+            'code' => $code,
+        ];
+
+        return $fields;
+    }
+
+    /**
      * Get the access token response for the given code.
      *
      * @param string $code
